@@ -1,0 +1,12 @@
+name: Back It Up
+main: com.awsp8.BackItUp
+version: 1.4.0
+
+commands:
+  bit:
+    description: Displays the information about Back It Up.
+    usage: /bit
+
+  bit-backup:
+    description: Backs Up the server. You must be an op.
+    usage: /bit-backup
