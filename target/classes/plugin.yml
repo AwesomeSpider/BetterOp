@@ -1,0 +1,41 @@
+name: BetterOp
+main: com.awsp8.BetterOp
+version: 1.0.0
+author: AwesomeSpider8
+website: http://dev.bukkit.org/bukkit-plugins/better-op/
+
+commands:
+  ignite:
+    description: Burns the specifyed player.
+    usage: /ignite <player>
+    aliases: [i, ign]
+
+  strike:
+    description: Strikes the specifyed player with lighnning.
+    usage: /strike <player>
+    aliases: [s, str]
+
+  hurt:
+    description: Hurts the specifyed player.
+    usage: /hurt <player>
+    aliases: [h, hur]
+
+  wither:
+    desciption: Gives the specifyed player wither.
+    usage: /wither <player>
+    aliases: [w, wit]
+
+  healplayer:
+    desciption: Heals the specifyed player.
+    usage: /healplayer <player>
+    aliases: [h, hp, heal_player]
+
+  boostplayer:
+    description: Gives the specifyed player a few good status effects.
+    usage: /boostplayer <player>
+    aliases: [b, bp, boost_player]
+
+  diamond:
+    description: Gives the specifyed player diamond gear.
+    usage: /diamond <player>
+    aliases: [d, dia]
